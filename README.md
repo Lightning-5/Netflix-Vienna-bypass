@@ -3,5 +3,6 @@ Link between A1 snd Netflix is undercapacity. At peak hours average throughput t
 
 Script 
 generate_vienna_hostfile_auto.py adds records to hosts file on windows to redirect Netflix Vienna
+.
 generate_vienna_hostfile_remove.py removes those records 
 
