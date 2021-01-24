@@ -1,7 +1,11 @@
 import dns.resolver
 
 
-file = open("C:\Windows\System32\drivers\etc\hosts", "a")
+try:
+    file = open("""C:\Windows\System32\drivers\etc\hosts""", "a")
+except:
+    print("""Can't open hosts file. Are you running as Adminitrator?""")
+    input("Press enter to exit")
 
 #ipv4-c008-vie001-ix.1.oca.nflxvideo.net
 zacetek="ipv4-c"
